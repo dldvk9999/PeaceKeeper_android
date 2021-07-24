@@ -2,7 +2,7 @@
 
 ## 개요
 본 레포지토리는 졸업프로젝트로 사용 될 PeaceKeeper 라는 프로그램의 android 버전입니다.  
-현재 구글 플레이스토어에 등록한 상태이며 본 어플을 통해 수익을 창출하지 않는 비영리적 어플리케이션입니다.
+현재 구글 플레이스토어에 등록한 상태이며 본 어플을 통해 수익을 창출하지 않는 비영리적 어플리케이션입니다.  
 [구글 플레이스토어 링크](https://play.google.com/store/apps/details?id=com.Peace_Keeper.release)
 
 ***
@@ -32,6 +32,6 @@
 ***
 
 ## 실행 이미지
-<img src="./PeaceKeeper_android/app/src/main/assets/assets/img/filtering.jpg" alt="filtering" width="300" height="600"/>  
+<img src="./app/src/main/assets/assets/img/filtering.jpg" alt="filtering" width="300" height="600"/>  
 <앱 필터링 화면>
 

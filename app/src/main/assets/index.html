@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Peace Keeper</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <script>
+			function doSomething() {
+				var inputValue = document.forms[0].elements['address'].value;
+				document.forms[0].elements['address'].value = "";
+				if(inputValue == "") inputValue = "www.naver.com";
+				var url = "http://" + inputValue;
+				window.location = url;
+				return false;
+			}
+		</script>
+</head>
+<body id="page-top">
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+            <h1 class="mx-auto my-0 text-uppercase">Peace Keeper</h1>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">악성 문자열 필터링 어플리케이션</h2>
+            <form onsubmit="return doSomething();" class="my-form">
+                <input type="text" name="address" style="height: 40px;" class="col-lg-8 mx-auto" placeholder="www.naver.com">
+                <input type="submit" value="시작" style="line-height: 2px;" class="btn btn-primary js-scroll-trigger">
+            </form>
+        </div>
+    </div>
+</header>
+<!-- About-->
+<section class="about-section text-center" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="text-white mb-4">Peace Keeper</h2>
+                <p class="text-white-50">
+                    본 어플은 웹페이지에 접속하는 모든 텍스트를 긁어보아 악성 댓글을 포함한 악성 문자열들을 인공지능 기술을 이용해 다른 문자로 바꿔주는 어플리케이션입니다. <br>이제 당신도 악성 댓글에 흔들리지 마세요!
+                </p>
+            </div>
+        </div>
+        <img class="img-fluid" src="assets/img/device.png"/>
+    </div>
+</section>
+<!-- Projects-->
+<section class="projects-section bg-light">
+    <div class="container">
+        <!-- Featured Project Row-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/filtering.jpg" alt="" /></div>
+            <div class="col-xl-4 col-lg-5">
+                <div class="featured-text text-center text-lg-left">
+                    <h4>악성 문자열 필터링</h4>
+                    <p class="text-black-50 mb-0">화면에 보시는 것처럼 악성 문자열로 판단되는 문자열은 모두 "I LOVE YOU"로 필터링됩니다. 이제 사람들은 당신에게 선플을 다는 사람들이 될 것입니다.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Project One Row-->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/img/image01.jpg" alt="" /></div>
+            <div class="col-lg-6">
+                <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-left">
+                            <h4 class="text-white">정보의 자유</h4>
+                            <p class="mb-0 text-white-50">악성 문자열을 글로 작성하는 것도 인터넷 자유의 권리입니다. 그런 권리를 침해하지 않는 선에서 사용자가 악성 문자로 인해 멘탈이 흔들려지지 않도록 도와줍니다.</p>
+                            <hr class="d-none d-lg-block mb-0 ml-0" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project Two Row-->
+        <div class="row justify-content-center no-gutters">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/img/image02.jpg" alt="" /></div>
+            <div class="col-lg-6 order-lg-first">
+                <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-right">
+                            <h4 class="text-white">인공지능 기술의 보편화 부재</h4>
+                            <p class="mb-0 text-white-50">기존에 나와있는 악성 문자열을 필터링해주는 기술들은 댓글 입력 부분에만 존재할 뿐더러, 아무리 인공지능을 사용해도 특정 사이트를 제외한 나머지 사이트는 적용되지 않았습니다. 본 어플리케이션은 모든 사이트에 인공지능을 적용시켜주는 아주 고마운 어플리케이션입니다. :)</p>
+                            <hr class="d-none d-lg-block mb-0 mr-0" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Signup-->
+<section class="signup-section" id="signup">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto text-center">
+                <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                <h2 class="text-white mb-5">불편한 점이 있다면 문의주세요!</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact-->
+<section class="contact-section bg-black">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                        <h4 class="text-uppercase m-0">Address</h4>
+                        <hr class="my-4" />
+                        <div class="small text-black-50">-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-envelope text-primary mb-2"></i>
+                        <h4 class="text-uppercase m-0">Email</h4>
+                        <hr class="my-4" />
+                        <div class="small text-black-50"><a href="#!">dldvk9999@naver.com</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                        <h4 class="text-uppercase m-0">Phone</h4>
+                        <hr class="my-4" />
+                        <div class="small text-black-50">-</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer-->
+<footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Peace Keeper Made By __ P.J.G.</div></footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
+</html>

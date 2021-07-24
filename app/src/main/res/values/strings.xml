@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Peace Keeper</string>
+
+    <string-array name = "URL_List">
+        <item>"Youtube"</item>
+        <item>"Naver"</item>
+        <item>"Daum"</item>
+        <item>"Afreeca"</item>
+        <item>"직접 입력"</item>
+    </string-array>
+
+</resources>

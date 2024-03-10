@@ -2,6 +2,7 @@
     <string name="app_name">Peace Keeper</string>
 
     <string-array name = "URL_List">
+        <item>"홈"</item>
         <item>"Youtube"</item>
         <item>"Naver"</item>
         <item>"Daum"</item>

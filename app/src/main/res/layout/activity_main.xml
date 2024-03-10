@@ -31,7 +31,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="URL Change"
+                    android:text="주소 변경"
                     android:id="@+id/urlChange"
                     tools:ignore="HardcodedText" />
 
@@ -58,7 +58,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="exit"
+                    android:text="나가기"
                     android:id="@+id/btn_exit"
                     android:layout_gravity="right"
                     tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />

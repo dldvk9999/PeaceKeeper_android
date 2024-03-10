@@ -113,10 +113,11 @@ public class MainActivity extends AppCompatActivity {
             AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
             builder.setTitle("URL을 선택하세요.");
             builder.setItems(R.array.URL_List, (dialog, pos) -> {
-                if      (pos == 0)  webView.loadUrl("https://www.youtube.com/");
-                else if (pos == 1)  webView.loadUrl("https://www.naver.com/");
-                else if (pos == 2)  webView.loadUrl("https://www.daum.net/");
-                else if (pos == 3)  webView.loadUrl("http://afreecatv.com/");
+                if      (pos == 0)  webView.loadUrl("file:///android_asset/index.html");
+                else if (pos == 1)  webView.loadUrl("https://www.youtube.com/");
+                else if (pos == 2)  webView.loadUrl("https://www.naver.com/");
+                else if (pos == 3)  webView.loadUrl("https://www.daum.net/");
+                else if (pos == 4)  webView.loadUrl("http://afreecatv.com/");
                 else {
                     final EditText editText = new EditText(mContext);
                     AlertDialog.Builder builder1 = new AlertDialog.Builder(mContext);
